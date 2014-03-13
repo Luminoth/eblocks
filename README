@@ -1,0 +1,75 @@
+EBlocks is a yet-another-Tetris clone from Energon Software.
+It is released under the GNU General Public License (GPL).
+
+For more information on Tetris, please visit these websites:
+    http://www.wikipedia.org/wiki/Tetris
+    http://www.tetris.com/
+
+----------
+Requirements
+----------
+
+Linux
+glibc 2.2
+SDL 1.2.4
+
+----------
+Source Installation
+----------
+
+Installation is pretty easy. Just unpack the source:
+
+$ tar -xzvf eblocks-1.0.0-src.tar.gz
+
+and compile it:
+
+$ cd eblocks/
+$ make
+
+Assuming everything goes without any error (if not, please send an error report to aszwad@softhome.net)
+you can copy the bin/ and data/ directories to where you'll be running EBlocks from. Then you can run
+it from one level up from the bin directory, ie:
+
+$ bin/eblocks
+
+----------
+Binary Installation
+----------
+
+If you downloaded just the binary package, you have everything you need. Just unzip the tarball:
+
+$ tar -xzvf eblocks-1.0.0.tar.gz
+
+and run it from the top-level directory:
+
+$ bin/eblocks
+
+----------
+Playing the Game
+----------
+
+Controls:
+    Up - rotate the current tetramino clockwise
+    Down - drop the current tetramino to the bottom
+    Left - move the current tetramino left
+    Right - move the current tetramino right
+
+For more advanced players, the X and Z keys may be used to rotate the current tetramino
+clockwise and counter-clockwise, respectively.
+
+----------
+What to do when something breaks
+----------
+
+If something doesn't work, or you want to tell me EBlocks sucks, please address an e-mail
+to aszwad@softhome.net. If it's an error report, please include as MUCH detail as possible.
+You should at least include what system you're running on, what version of SDL you have, and any
+core dumps and additional information you can come up with.
+
+If you have changes to the source you'd like me to incorporate, please attach an appropriate patch
+with a short description of what the patch will do and why it should be done.
+
+------------
+
+EBlocks (c) 2002 Energon Software (http://energon.home.mindspring.com/)
+Tetris is a registered trademark of The Tetris Company, LLC.
